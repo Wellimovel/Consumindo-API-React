@@ -8,9 +8,16 @@ function App() {
     <Header/>
     <div classname="conteudo">
       <img src={background} className="background" alt="background app"></img>
-      
-    </div>
-    </div>
+      <div className="info">
+      <input name="usuario" placeholder="@username"/>
+        <button>
+          Buscas
+        </button>
+      </div>
+        
+      </div>
+      </div>
+   
   );
 }
 
