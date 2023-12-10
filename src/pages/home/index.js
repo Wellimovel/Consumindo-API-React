@@ -1,6 +1,9 @@
+import React from "react";
 import {Header} from '../../components/Header';
 import background from '../../assets/background.png';
+import ItemList from '../../components/ItemList';
 import "./styles.css";
+
 
 function App() {
   return (
@@ -38,9 +41,20 @@ function App() {
 
 
 <hr/>
+    <div>
+    <h4 className="repositorio">
+      Repositórios
+    </h4>
+    <ItemList title ="Teste1" descricao="teste de descrição"
+/> 
+<ItemList title ="Teste1" descricao="teste de descrição"
+/>
+<ItemList title ="Teste1" descricao="teste de descrição"
+/> </div>
+      
 
-      </div>
-        
+      </div> 
+
       </div>
       </div>
    
